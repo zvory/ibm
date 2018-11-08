@@ -1,0 +1,7 @@
+{
+  "name": "ibm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Alex Zvorygin <grafetu@gmail.com>",
+  "license": "MIT"
+}
