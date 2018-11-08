@@ -5,6 +5,18 @@ body, html {
     overflow: hidden;
     padding:0;
     background-color: #202020;
+    position: absolute;
+}
+
+a {
+    color: green;
+}
+
+a:hover{
+    background-color: rgba(0,255,0,.4);
+    color:#202020;
+    border-radius: 2px;
+  
 }
 
 .inset2 {
@@ -17,6 +29,7 @@ body, html {
 .bg{
     position:relative;
     width:100%;
+    
     background-position: top left;
     background-image: url(ibm.jpg);
     background-size: 100% auto;
@@ -26,6 +39,7 @@ body, html {
     padding-top: 80%; 
 }
 
+textarea,
 [contenteditable] {
     border: none;
     overflow: hidden;
@@ -48,12 +62,13 @@ body, html {
 }
 
 .el{
-    width:62.9%;
+    width:55.9%;
     height:54.9%;
     position:absolute;
     top:0; left:0;
     padding-top: 5%;
     padding-left: 5%;
+    padding-right: 7%;
     margin-left:19.5%;
     margin-top:11%;
     transform-origin:100% 100%;
@@ -68,4 +83,20 @@ body, html {
     text-shadow: 0 0 0.2em green;
     font-family: 'Courier New', 'monospace';
 
+}
+
+
+.insetShadow
+{
+    /* width:350px;height:200px; */
+    /* border: solid 1px #555;
+    background-color: #eed; */
+    /* width:200px;
+    height:100px; */
+    box-shadow:20px 20px 200px -20px black inset;  
+
+    /* box-shadow: inset  100px -100px 250px rgba(255,255,0,0.6);
+    -moz-box-shadow: inset  100px -100px 250px rgba(255,255,0,0.6);
+    -webkit-box-shadow: inset  100px -100px 250px rgba(255,255,0,0.6);
+    -o-box-shadow: inset  100px -100px 250px rgba(255,255,0,0.6); */
 }
