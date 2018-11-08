@@ -67,7 +67,7 @@
 
 
 .prompt {
-    padding-left: -0.5%;
+    padding-left: 0.5%;
     -webkit-transform-style: preserve-3d; /* Safari 3-8  */    
     -webkit-transform: rotateX(-5deg); /* Safari 3-8  */
     transform-style: preserve-3d;
