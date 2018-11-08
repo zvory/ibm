@@ -62,14 +62,14 @@ textarea,
 }
 
 .el{
-    width:55.9%;
-    height:54.9%;
+    width:55.95%;
+    height:54.7%;
     position:absolute;
     top:0; left:0;
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 7%;
-    margin-left:19.5%;
+    margin-left:19.6%;
     margin-top:11%;
     transform-origin:100% 100%;
     /* transform: rotate(22deg); */
@@ -95,7 +95,7 @@ textarea,
     margin-top:11%;
     width:67.9%;
     
-    height:61%;
+    height:60.5%;
 
 
 }
