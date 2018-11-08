@@ -73,16 +73,14 @@ textarea,
     margin-top:11%;
     transform-origin:100% 100%;
     /* transform: rotate(22deg); */
-}
-
-#shell {
     background-color: #202020;
+    background-image: url("gloss0.jpg");
+    background-size: cover;
     font-size: 1.2vw;
 
     color: green;
     text-shadow: 0 0 0.2em green;
     font-family: 'Courier New', 'monospace';
-
 }
 
 
