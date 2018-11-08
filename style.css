@@ -3,6 +3,11 @@ body, html {
     width:100%;
     margin: 0;
     padding:0;
+    background-color: #202020;
+}
+
+.inset2 {
+    clip-path: inset(1% 10% 10% 1% round 20px);
 }
 
 .bg{
@@ -13,28 +18,28 @@ body, html {
     background-size: 100% auto;
     background-attachment: fixed;
     background-repeat:no-repeat;
+    height: 0;
+    padding-top: 80%; 
 }
 
 .el{
-    width:10px;
-    height:10px;
+    width:65%;
+    height:60%;
     position:absolute;
     top:0; left:0;
-    margin-left:8%;
-    margin-top:11%;
-    background:teal;
+    padding-top: 5%;
+    padding-left: 5%;
+    margin-left:21%;
+    margin-top:12%;
     transform-origin:100% 100%;
     /* transform: rotate(22deg); */
 }
 
 #shell {
-    position: absolute;
-    left: 20%;
-    top: 20%;
-    font-size: 2rem;
+    font-size: 1rem;
     background-color: #202020;
     color: green;
     text-shadow: 0 0 0.2em green;
-    font: 'Courier new', monospace;
+    font-family: 'Courier New', 'monospace';
 
 }
