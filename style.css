@@ -74,13 +74,30 @@ textarea,
     transform-origin:100% 100%;
     /* transform: rotate(22deg); */
     background-color: #202020;
-    background-image: url("gloss0.jpg");
+    /* background-image: url("gloss0.jpg"); */
     background-size: cover;
     font-size: 1.2vw;
 
     color: green;
     text-shadow: 0 0 0.2em green;
     font-family: 'Courier New', 'monospace';
+}
+
+.gloss-overlay {
+    pointer-events: none;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    opacity: 0.3;
+    margin-left:19.5%;
+    margin-top:11%;
+    width:67.9%;
+    
+    height:61%;
+
+
 }
 
 
