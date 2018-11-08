@@ -8,7 +8,7 @@ body, html {
 .bg{
     position:relative;
     height:100%;
-    background-position: right bottom;
+    background-position: top left;
     background-image: url(ibm.jpg);
     background-size: 100% auto;
     background-attachment: fixed;
@@ -16,15 +16,15 @@ body, html {
 }
 
 .el{
-    width:50px;
-    height:75px;
+    width:10px;
+    height:10px;
     position:absolute;
-    bottom:0; right:0;
-    margin-right:8%;
-    margin-bottom:11%;
+    top:0; left:0;
+    margin-left:8%;
+    margin-top:11%;
     background:teal;
     transform-origin:100% 100%;
-    transform: rotate(22deg);
+    /* transform: rotate(22deg); */
 }
 
 #shell {
